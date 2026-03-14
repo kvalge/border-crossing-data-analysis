@@ -1,4 +1,6 @@
 # Estonia Border Crossing Analysis
+  
+The project is created with Cursor.
 
 ## Overview
 
