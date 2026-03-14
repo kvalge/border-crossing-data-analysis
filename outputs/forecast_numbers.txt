@@ -1,0 +1,121 @@
+Estonia Border Crossings – 6-Month Forecast (April–September 2026)
+======================================================================
+
+Several forecasting models are used; results are shown separately below so you
+can compare different methods.
+
+
+MODEL: Holt-Winters
+----------------------------------------------------------------------
+Holt-Winters exponential smoothing (additive trend, additive seasonal, 12-month period).
+
+FORECAST NUMBERS (monthly persons):
+----------------------------------------------------------------------
+  2026-04  3rd countries           inbound       32,516
+  2026-05  3rd countries           inbound       27,168
+  2026-06  3rd countries           inbound       38,599
+  2026-07  3rd countries           inbound       37,048
+  2026-08  3rd countries           inbound       37,191
+  2026-09  3rd countries           inbound       40,595
+  2026-04  3rd countries           outbound      28,577
+  2026-05  3rd countries           outbound      24,859
+  2026-06  3rd countries           outbound      30,777
+  2026-07  3rd countries           outbound      33,113
+  2026-08  3rd countries           outbound      36,646
+  2026-09  3rd countries           outbound      42,733
+  2026-04  Schengen/EL/EMP/CH      inbound       36,637
+  2026-05  Schengen/EL/EMP/CH      inbound       31,321
+  2026-06  Schengen/EL/EMP/CH      inbound       39,087
+  2026-07  Schengen/EL/EMP/CH      inbound       41,153
+  2026-08  Schengen/EL/EMP/CH      inbound       42,536
+  2026-09  Schengen/EL/EMP/CH      inbound       42,444
+  2026-04  Schengen/EL/EMP/CH      outbound      32,526
+  2026-05  Schengen/EL/EMP/CH      outbound      33,110
+  2026-06  Schengen/EL/EMP/CH      outbound      38,037
+  2026-07  Schengen/EL/EMP/CH      outbound      44,481
+  2026-08  Schengen/EL/EMP/CH      outbound      43,764
+  2026-09  Schengen/EL/EMP/CH      outbound      48,240
+
+TOTALS (April–September 2026, all country groups):
+----------------------------------------------------------------------
+  Inbound:        446,295
+  Outbound:      436,863
+  Total:         883,158
+
+
+MODEL: Seasonal naive
+----------------------------------------------------------------------
+Seasonal naive: forecast for month M = observed value for month M from previous year.
+
+FORECAST NUMBERS (monthly persons):
+----------------------------------------------------------------------
+  2026-04  3rd countries           inbound       32,718
+  2026-05  3rd countries           inbound       32,456
+  2026-06  3rd countries           inbound       37,349
+  2026-07  3rd countries           inbound       41,299
+  2026-08  3rd countries           inbound       45,710
+  2026-09  3rd countries           inbound       40,424
+  2026-04  3rd countries           outbound      29,966
+  2026-05  3rd countries           outbound      32,347
+  2026-06  3rd countries           outbound      37,793
+  2026-07  3rd countries           outbound      38,529
+  2026-08  3rd countries           outbound      37,362
+  2026-09  3rd countries           outbound      34,765
+  2026-04  Schengen/EL/EMP/CH      inbound       42,071
+  2026-05  Schengen/EL/EMP/CH      inbound       43,294
+  2026-06  Schengen/EL/EMP/CH      inbound       43,834
+  2026-07  Schengen/EL/EMP/CH      inbound       50,289
+  2026-08  Schengen/EL/EMP/CH      inbound       50,617
+  2026-09  Schengen/EL/EMP/CH      inbound       41,552
+  2026-04  Schengen/EL/EMP/CH      outbound      42,180
+  2026-05  Schengen/EL/EMP/CH      outbound      41,069
+  2026-06  Schengen/EL/EMP/CH      outbound      45,190
+  2026-07  Schengen/EL/EMP/CH      outbound      47,046
+  2026-08  Schengen/EL/EMP/CH      outbound      43,296
+  2026-09  Schengen/EL/EMP/CH      outbound      42,811
+
+TOTALS (April–September 2026, all country groups):
+----------------------------------------------------------------------
+  Inbound:        501,613
+  Outbound:      472,354
+  Total:         973,967
+
+
+MODEL: Linear regression
+----------------------------------------------------------------------
+Linear regression: count ~ time + month (trend + seasonal).
+
+FORECAST NUMBERS (monthly persons):
+----------------------------------------------------------------------
+  2026-04  3rd countries           inbound       43,844
+  2026-05  3rd countries           inbound       44,804
+  2026-06  3rd countries           inbound       45,764
+  2026-07  3rd countries           inbound       46,724
+  2026-08  3rd countries           inbound       47,684
+  2026-09  3rd countries           inbound       48,644
+  2026-04  3rd countries           outbound      42,292
+  2026-05  3rd countries           outbound      43,491
+  2026-06  3rd countries           outbound      44,689
+  2026-07  3rd countries           outbound      45,888
+  2026-08  3rd countries           outbound      47,086
+  2026-09  3rd countries           outbound      48,285
+  2026-04  Schengen/EL/EMP/CH      inbound       52,086
+  2026-05  Schengen/EL/EMP/CH      inbound       53,293
+  2026-06  Schengen/EL/EMP/CH      inbound       54,500
+  2026-07  Schengen/EL/EMP/CH      inbound       55,707
+  2026-08  Schengen/EL/EMP/CH      inbound       56,913
+  2026-09  Schengen/EL/EMP/CH      inbound       58,120
+  2026-04  Schengen/EL/EMP/CH      outbound      50,151
+  2026-05  Schengen/EL/EMP/CH      outbound      51,463
+  2026-06  Schengen/EL/EMP/CH      outbound      52,775
+  2026-07  Schengen/EL/EMP/CH      outbound      54,087
+  2026-08  Schengen/EL/EMP/CH      outbound      55,399
+  2026-09  Schengen/EL/EMP/CH      outbound      56,711
+
+TOTALS (April–September 2026, all country groups):
+----------------------------------------------------------------------
+  Inbound:        608,083
+  Outbound:      592,317
+  Total:       1,200,400
+
+======================================================================

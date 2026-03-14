@@ -1,0 +1,100 @@
+============================================================
+ESTONIA BORDER CROSSING DATA – EXPLORATION REPORT
+============================================================
+
+SHAPE
+----------------------------------------
+Total rows:    10,132,310
+Total columns: 10
+
+YEARS AND DIRECTIONS
+----------------------------------------
+Years covered: [2021, 2022, 2023, 2024, 2025]
+Directions:    ['inbound', 'outbound']
+
+COLUMNS AND DATA TYPES
+----------------------------------------
+  crossing_date: str
+  border_point: str
+  border_point_type: str
+  citizenship: str
+  citizenship_code: str
+  country_group: str
+  gender: str
+  age_group: str
+  direction: str
+  year: int64
+
+MISSING VALUES
+----------------------------------------
+  None.
+
+UNIQUE VALUES: direction
+----------------------------------------
+  inbound
+  outbound
+
+UNIQUE VALUES: year
+----------------------------------------
+  2021
+  2022
+  2023
+  2024
+  2025
+
+UNIQUE VALUES: country_group
+----------------------------------------
+  3.riik
+  EL/EMP/CH
+  Puudub
+  Schengen, EL/EMP/CH
+
+UNIQUE VALUES: border_point_type
+----------------------------------------
+  Maismaapiir
+  Merepiir
+  Õhupiir
+
+UNIQUE VALUES: gender
+----------------------------------------
+  Mees
+  Naine
+  Teadmata
+
+UNIQUE VALUES: age_group
+----------------------------------------
+  0-17
+  18-64
+  65+
+
+ROW COUNTS BY YEAR AND DIRECTION
+----------------------------------------
+  Year 2021, inbound: 577,204
+  Year 2021, outbound: 522,774
+  Year 2022, inbound: 1,292,866
+  Year 2022, outbound: 1,137,490
+  Year 2023, inbound: 1,222,805
+  Year 2023, outbound: 1,239,325
+  Year 2024, inbound: 1,161,052
+  Year 2024, outbound: 1,127,089
+  Year 2025, inbound: 958,791
+  Year 2025, outbound: 892,914
+
+DISTRIBUTION OF country_group
+----------------------------------------
+  3.riik: 5,578,111
+  Schengen, EL/EMP/CH: 4,443,746
+  EL/EMP/CH: 110,444
+  Puudub: 9
+
+UNCLASSIFIED ROWS (3rd COUNTRIES)
+----------------------------------------
+Rows whose country_group does NOT contain 'Schengen' or 'EL/EMP/CH' (case-insensitive), including missing, are treated as 3rd countries.
+
+Total rows classified as 3rd countries: 5,578,120
+
+Values and counts in this group:
+  3.riik: 5,578,111
+  Puudub: 9
+
+============================================================
