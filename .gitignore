@@ -1,9 +1,6 @@
 # Raw data files – too large for version control
 data/raw/
 
-# Generated outputs – reproducible from source
-outputs/
-
 # Python
 __pycache__/
 *.py[cod]
