@@ -14,6 +14,14 @@ See `project_overview.md` for a project description.
 
 ![Estonia border crossings by country group and direction (2021–2025)](outputs/border_crossings.png)
 
+## Border crossings in 2022 chart
+
+![Estonia border crossings in 2022 by month (inbound/outbound share)](outputs/border_crossings_2022_monthly_share.png)
+
+## UKR citizenship: inbound vs outbound by year
+
+![UKR inbound/outbound by year (counts)](outputs/border_crossings_ukr_inbound_outbound_share.png)
+
 ## Forecast: models and outputs
 
 The project produces a 6‑month forecast (April–September of the current year) for monthly border crossings, 

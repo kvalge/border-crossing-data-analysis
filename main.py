@@ -8,7 +8,7 @@ from pathlib import Path
 from src.data_loader import load_border_crossings
 from src.explore import run_exploration
 from src.forecast import run_forecast
-from src.visualise import create_chart
+from src.visualise import create_chart, create_ukr_citizenship_year_share_chart
 
 
 def main() -> None:
@@ -27,6 +27,10 @@ def main() -> None:
     print("Creating bar chart...")
     create_chart(df, outputs / "border_crossings.png")
     print("  Written outputs/border_crossings.png")
+
+    print("Creating UKR citizenship inbound/outbound share chart...")
+    create_ukr_citizenship_year_share_chart(df, outputs / "border_crossings_ukr_inbound_outbound_share.png")
+    print("  Written outputs/border_crossings_ukr_inbound_outbound_share.png")
 
     print("Running 6-month forecast and saving charts and numbers...")
     forecast_pngs = run_forecast(df, outputs, outputs / "forecast_numbers.txt")

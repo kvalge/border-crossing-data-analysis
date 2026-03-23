@@ -34,7 +34,7 @@ The exploration step takes the combined dataset and writes a single text report 
 
 ## src/visualise.py
 
-The visualisation step produces `outputs/border_crossings.png`, a grouped bar chart. Each year has four bars: Schengen/EL/EMP/CH inbound, Schengen/EL/EMP/CH outbound, third countries inbound, and third countries outbound. Country group is defined as in the exploration (Schengen/EL/EMP/CH if the value contains “Schengen” or “EL/EMP/CH”, otherwise third countries). Inbound bars use navy blue and outbound bars use orange; third-country bars use the same colours with lower opacity so they are visually distinct. The chart shows the total number of persons (row counts) and displays values on top of each bar. Title and axis labels match the project specification.
+The visualisation step produces `outputs/border_crossings.png`, a stacked bar chart by year and country group (Schengen/EL/EMP/CH vs third countries), with inbound and outbound stacked in each bar. It also produces `outputs/border_crossings_ukr_inbound_outbound_share.png`: one column per year for rows where `citizenship_code` is UKR (Ukraine), with **stacked counts** for inbound vs outbound (y-axis = number of persons), **total per year** on top of each column, and segment counts inside the bars when readable. Navy and orange colours match inbound and outbound elsewhere in the project.
 
 ---
 
