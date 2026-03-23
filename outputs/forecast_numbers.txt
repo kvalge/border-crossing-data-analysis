@@ -1,13 +1,19 @@
 Estonia Border Crossings – 6-Month Forecast (April–September 2026)
 ======================================================================
 
+Validation summary (walk-forward, 6-month horizon):
+----------------------------------------------------------------------
+  Holt-Winters        RMSE=9623.27  MAE=7571.23  MAPE=16.88%
+  Seasonal naive      RMSE=14775.66  MAE=12914.87  MAPE=29.38%
+  Linear regression   RMSE=22993.01  MAE=19929.06  MAPE=45.86%
+
 Several forecasting models are used; results are shown separately below so you
 can compare different methods.
 
 
 MODEL: Holt-Winters
 ----------------------------------------------------------------------
-Holt-Winters exponential smoothing (additive trend, additive seasonal, 12-month period).
+Holt-Winters exponential smoothing (additive trend, additive seasonal, 12-month period) with heuristic fallback.
 
 FORECAST NUMBERS (monthly persons):
 ----------------------------------------------------------------------
@@ -45,77 +51,77 @@ TOTALS (April–September 2026, all country groups):
 
 MODEL: Seasonal naive
 ----------------------------------------------------------------------
-Seasonal naive: forecast for month M = observed value for month M from previous year.
+Seasonal naive: forecast for month M = average of all historical values observed in month M.
 
 FORECAST NUMBERS (monthly persons):
 ----------------------------------------------------------------------
-  2026-04  3rd countries           inbound       32,718
-  2026-05  3rd countries           inbound       32,456
-  2026-06  3rd countries           inbound       37,349
-  2026-07  3rd countries           inbound       41,299
-  2026-08  3rd countries           inbound       45,710
-  2026-09  3rd countries           inbound       40,424
-  2026-04  3rd countries           outbound      29,966
-  2026-05  3rd countries           outbound      32,347
-  2026-06  3rd countries           outbound      37,793
-  2026-07  3rd countries           outbound      38,529
-  2026-08  3rd countries           outbound      37,362
-  2026-09  3rd countries           outbound      34,765
-  2026-04  Schengen/EL/EMP/CH      inbound       42,071
-  2026-05  Schengen/EL/EMP/CH      inbound       43,294
-  2026-06  Schengen/EL/EMP/CH      inbound       43,834
-  2026-07  Schengen/EL/EMP/CH      inbound       50,289
-  2026-08  Schengen/EL/EMP/CH      inbound       50,617
-  2026-09  Schengen/EL/EMP/CH      inbound       41,552
-  2026-04  Schengen/EL/EMP/CH      outbound      42,180
-  2026-05  Schengen/EL/EMP/CH      outbound      41,069
-  2026-06  Schengen/EL/EMP/CH      outbound      45,190
-  2026-07  Schengen/EL/EMP/CH      outbound      47,046
-  2026-08  Schengen/EL/EMP/CH      outbound      43,296
-  2026-09  Schengen/EL/EMP/CH      outbound      42,811
+  2026-04  3rd countries           inbound       45,212
+  2026-05  3rd countries           inbound       45,935
+  2026-06  3rd countries           inbound       49,503
+  2026-07  3rd countries           inbound       58,860
+  2026-08  3rd countries           inbound       62,728
+  2026-09  3rd countries           inbound       52,684
+  2026-04  3rd countries           outbound      40,225
+  2026-05  3rd countries           outbound      43,380
+  2026-06  3rd countries           outbound      49,175
+  2026-07  3rd countries           outbound      56,540
+  2026-08  3rd countries           outbound      56,531
+  2026-09  3rd countries           outbound      47,234
+  2026-04  Schengen/EL/EMP/CH      inbound       36,374
+  2026-05  Schengen/EL/EMP/CH      inbound       38,595
+  2026-06  Schengen/EL/EMP/CH      inbound       39,197
+  2026-07  Schengen/EL/EMP/CH      inbound       46,173
+  2026-08  Schengen/EL/EMP/CH      inbound       47,722
+  2026-09  Schengen/EL/EMP/CH      inbound       39,762
+  2026-04  Schengen/EL/EMP/CH      outbound      37,277
+  2026-05  Schengen/EL/EMP/CH      outbound      36,427
+  2026-06  Schengen/EL/EMP/CH      outbound      40,720
+  2026-07  Schengen/EL/EMP/CH      outbound      44,144
+  2026-08  Schengen/EL/EMP/CH      outbound      43,665
+  2026-09  Schengen/EL/EMP/CH      outbound      40,376
 
 TOTALS (April–September 2026, all country groups):
 ----------------------------------------------------------------------
-  Inbound:        501,613
-  Outbound:      472,354
-  Total:         973,967
+  Inbound:        562,745
+  Outbound:      535,694
+  Total:       1,098,439
 
 
 MODEL: Linear regression
 ----------------------------------------------------------------------
-Linear regression: count ~ time + month (trend + seasonal).
+Linear regression: count ~ time + month dummies (categorical seasonality).
 
 FORECAST NUMBERS (monthly persons):
 ----------------------------------------------------------------------
-  2026-04  3rd countries           inbound       43,844
-  2026-05  3rd countries           inbound       44,804
-  2026-06  3rd countries           inbound       45,764
-  2026-07  3rd countries           inbound       46,724
-  2026-08  3rd countries           inbound       47,684
-  2026-09  3rd countries           inbound       48,644
-  2026-04  3rd countries           outbound      42,292
-  2026-05  3rd countries           outbound      43,491
-  2026-06  3rd countries           outbound      44,689
-  2026-07  3rd countries           outbound      45,888
-  2026-08  3rd countries           outbound      47,086
-  2026-09  3rd countries           outbound      48,285
-  2026-04  Schengen/EL/EMP/CH      inbound       52,086
-  2026-05  Schengen/EL/EMP/CH      inbound       53,293
-  2026-06  Schengen/EL/EMP/CH      inbound       54,500
-  2026-07  Schengen/EL/EMP/CH      inbound       55,707
-  2026-08  Schengen/EL/EMP/CH      inbound       56,913
-  2026-09  Schengen/EL/EMP/CH      inbound       58,120
-  2026-04  Schengen/EL/EMP/CH      outbound      50,151
-  2026-05  Schengen/EL/EMP/CH      outbound      51,463
-  2026-06  Schengen/EL/EMP/CH      outbound      52,775
-  2026-07  Schengen/EL/EMP/CH      outbound      54,087
-  2026-08  Schengen/EL/EMP/CH      outbound      55,399
-  2026-09  Schengen/EL/EMP/CH      outbound      56,711
+  2026-04  3rd countries           inbound       43,070
+  2026-05  3rd countries           inbound       43,793
+  2026-06  3rd countries           inbound       47,361
+  2026-07  3rd countries           inbound       56,718
+  2026-08  3rd countries           inbound       60,586
+  2026-09  3rd countries           inbound       50,542
+  2026-04  3rd countries           outbound      40,931
+  2026-05  3rd countries           outbound      44,086
+  2026-06  3rd countries           outbound      49,881
+  2026-07  3rd countries           outbound      57,246
+  2026-08  3rd countries           outbound      57,237
+  2026-09  3rd countries           outbound      47,940
+  2026-04  Schengen/EL/EMP/CH      inbound       52,985
+  2026-05  Schengen/EL/EMP/CH      inbound       55,205
+  2026-06  Schengen/EL/EMP/CH      inbound       55,807
+  2026-07  Schengen/EL/EMP/CH      inbound       62,783
+  2026-08  Schengen/EL/EMP/CH      inbound       64,333
+  2026-09  Schengen/EL/EMP/CH      inbound       56,372
+  2026-04  Schengen/EL/EMP/CH      outbound      53,297
+  2026-05  Schengen/EL/EMP/CH      outbound      52,448
+  2026-06  Schengen/EL/EMP/CH      outbound      56,740
+  2026-07  Schengen/EL/EMP/CH      outbound      60,165
+  2026-08  Schengen/EL/EMP/CH      outbound      59,685
+  2026-09  Schengen/EL/EMP/CH      outbound      56,397
 
 TOTALS (April–September 2026, all country groups):
 ----------------------------------------------------------------------
-  Inbound:        608,083
-  Outbound:      592,317
-  Total:       1,200,400
+  Inbound:        649,555
+  Outbound:      636,053
+  Total:       1,285,608
 
 ======================================================================

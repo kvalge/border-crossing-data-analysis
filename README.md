@@ -75,6 +75,24 @@ country group, and direction.
 
 ![Forecast comparison – original vs improved](outputs/forecast_comparison.png)
 
+### 6-month forecast totals (old vs new)
+
+Totals below are for April–September 2026 (all country groups).
+
+- Holt-Winters: old total `883,158` -> new total `883,158`
+- Seasonal naive: old total `973,967` -> new total `1,098,439`
+- Linear regression: old total `1,200,400` -> new total `1,285,608`
+
+### Best model based on validation
+
+According to walk-forward validation metrics (`outputs/validation_metrics.txt`), the best model is
+**Holt-Winters** from the improved pipeline, with the lowest overall errors:
+- RMSE: `9,623.27`
+- MAE: `7,571.23`
+- MAPE: `16.88%`
+
+This is why the Holt-Winters improved forecast is the most reliable current choice.
+
 
 ## Setup
 
