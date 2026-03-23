@@ -14,13 +14,17 @@ See `project_overview.md` for a project description.
 
 ![Estonia border crossings by country group and direction (2021–2025)](outputs/border_crossings.png)
 
-## Border crossings in 2022 chart
+## Border crossings in 2022
 
 ![Estonia border crossings in 2022 by month (inbound/outbound share)](outputs/border_crossings_2022_monthly_share.png)
 
 ## UKR citizenship: inbound vs outbound by year
 
 ![UKR inbound/outbound by year (counts)](outputs/border_crossings_ukr_inbound_outbound_share.png)
+
+## UKR citizenship: inbound vs outbound in 2022
+
+![UKR 2022 monthly inbound/outbound share](outputs/border_crossings_2022_monthly_share_ukr.png)
 
 ## Forecast: models and outputs
 
