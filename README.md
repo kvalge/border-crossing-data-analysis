@@ -55,6 +55,26 @@ Three forecasting models are run to compare different methods.
 
 ![Forecast – Linear regression](outputs/forecast_linear_regression.png)
 
+### Improved forecast charts
+
+The improved pipeline includes walk-forward validation and updated model logic:
+- Holt-Winters with fallback initialization
+- Seasonal naive using average of all historical same-month values
+- Linear regression with month dummy variables
+
+![Forecast Improved – Holt-Winters](outputs/forecast_holtwinters_improved.png)
+
+![Forecast Improved – Seasonal naive](outputs/forecast_seasonal_naive_improved.png)
+
+![Forecast Improved – Linear regression](outputs/forecast_linear_regression_improved.png)
+
+### Forecast comparison chart
+
+This chart compares original and improved forecast outputs side by side for each model,
+country group, and direction.
+
+![Forecast comparison – original vs improved](outputs/forecast_comparison.png)
+
 
 ## Setup
 

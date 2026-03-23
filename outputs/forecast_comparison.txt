@@ -1,0 +1,106 @@
+Forecast comparison report: original vs improved
+==========================================================================================
+
+SIDE-BY-SIDE FORECAST NUMBERS
+------------------------------------------------------------------------------------------
+  model               period   country_group            direction   old        new        abs_diff     pct_diff
+  ----------------------------------------------------------------------------------------
+  Holt-Winters        2026-04  3rd countries           inbound     32,516    32,516           0       0.00%
+  Holt-Winters        2026-04  3rd countries           outbound    28,577    28,577           0       0.00%
+  Holt-Winters        2026-04  Schengen/EL/EMP/CH      inbound     36,637    36,637           0       0.00%
+  Holt-Winters        2026-04  Schengen/EL/EMP/CH      outbound    32,526    32,526           0       0.00%
+  Holt-Winters        2026-05  3rd countries           inbound     27,168    27,168           0       0.00%
+  Holt-Winters        2026-05  3rd countries           outbound    24,859    24,859           0       0.00%
+  Holt-Winters        2026-05  Schengen/EL/EMP/CH      inbound     31,321    31,321           0       0.00%
+  Holt-Winters        2026-05  Schengen/EL/EMP/CH      outbound    33,110    33,110           0       0.00%
+  Holt-Winters        2026-06  3rd countries           inbound     38,599    38,599           0       0.00%
+  Holt-Winters        2026-06  3rd countries           outbound    30,777    30,777           0       0.00%
+  Holt-Winters        2026-06  Schengen/EL/EMP/CH      inbound     39,087    39,087           0       0.00%
+  Holt-Winters        2026-06  Schengen/EL/EMP/CH      outbound    38,037    38,037           0       0.00%
+  Holt-Winters        2026-07  3rd countries           inbound     37,048    37,048           0       0.00%
+  Holt-Winters        2026-07  3rd countries           outbound    33,113    33,113           0       0.00%
+  Holt-Winters        2026-07  Schengen/EL/EMP/CH      inbound     41,153    41,153           0       0.00%
+  Holt-Winters        2026-07  Schengen/EL/EMP/CH      outbound    44,481    44,481           0       0.00%
+  Holt-Winters        2026-08  3rd countries           inbound     37,191    37,191           0       0.00%
+  Holt-Winters        2026-08  3rd countries           outbound    36,646    36,646           0       0.00%
+  Holt-Winters        2026-08  Schengen/EL/EMP/CH      inbound     42,536    42,536           0       0.00%
+  Holt-Winters        2026-08  Schengen/EL/EMP/CH      outbound    43,764    43,764           0       0.00%
+  Holt-Winters        2026-09  3rd countries           inbound     40,595    40,595           0       0.00%
+  Holt-Winters        2026-09  3rd countries           outbound    42,733    42,733           0       0.00%
+  Holt-Winters        2026-09  Schengen/EL/EMP/CH      inbound     42,444    42,444           0       0.00%
+  Holt-Winters        2026-09  Schengen/EL/EMP/CH      outbound    48,240    48,240           0       0.00%
+  Linear regression   2026-04  3rd countries           inbound     43,844    43,070         774      -1.77%
+  Linear regression   2026-04  3rd countries           outbound    42,292    40,931       1,361      -3.22%
+  Linear regression   2026-04  Schengen/EL/EMP/CH      inbound     52,086    52,985         899       1.73%
+  Linear regression   2026-04  Schengen/EL/EMP/CH      outbound    50,151    53,297       3,146       6.27%
+  Linear regression   2026-05  3rd countries           inbound     44,804    43,793       1,011      -2.26%
+  Linear regression   2026-05  3rd countries           outbound    43,491    44,086         595       1.37%
+  Linear regression   2026-05  Schengen/EL/EMP/CH      inbound     53,293    55,205       1,912       3.59%
+  Linear regression   2026-05  Schengen/EL/EMP/CH      outbound    51,463    52,448         985       1.91%
+  Linear regression   2026-06  3rd countries           inbound     45,764    47,361       1,597       3.49%
+  Linear regression   2026-06  3rd countries           outbound    44,689    49,881       5,192      11.62%
+  Linear regression   2026-06  Schengen/EL/EMP/CH      inbound     54,500    55,807       1,307       2.40%
+  Linear regression   2026-06  Schengen/EL/EMP/CH      outbound    52,775    56,740       3,965       7.51%
+  Linear regression   2026-07  3rd countries           inbound     46,724    56,718       9,994      21.39%
+  Linear regression   2026-07  3rd countries           outbound    45,888    57,246      11,358      24.75%
+  Linear regression   2026-07  Schengen/EL/EMP/CH      inbound     55,707    62,783       7,076      12.70%
+  Linear regression   2026-07  Schengen/EL/EMP/CH      outbound    54,087    60,165       6,078      11.24%
+  Linear regression   2026-08  3rd countries           inbound     47,684    60,586      12,902      27.06%
+  Linear regression   2026-08  3rd countries           outbound    47,086    57,237      10,151      21.56%
+  Linear regression   2026-08  Schengen/EL/EMP/CH      inbound     56,913    64,333       7,420      13.04%
+  Linear regression   2026-08  Schengen/EL/EMP/CH      outbound    55,399    59,685       4,286       7.74%
+  Linear regression   2026-09  3rd countries           inbound     48,644    50,542       1,898       3.90%
+  Linear regression   2026-09  3rd countries           outbound    48,285    47,940         345      -0.71%
+  Linear regression   2026-09  Schengen/EL/EMP/CH      inbound     58,120    56,372       1,748      -3.01%
+  Linear regression   2026-09  Schengen/EL/EMP/CH      outbound    56,711    56,397         314      -0.55%
+  Seasonal naive      2026-04  3rd countries           inbound     32,718    45,212      12,494      38.19%
+  Seasonal naive      2026-04  3rd countries           outbound    29,966    40,225      10,259      34.24%
+  Seasonal naive      2026-04  Schengen/EL/EMP/CH      inbound     42,071    36,374       5,697     -13.54%
+  Seasonal naive      2026-04  Schengen/EL/EMP/CH      outbound    42,180    37,277       4,903     -11.62%
+  Seasonal naive      2026-05  3rd countries           inbound     32,456    45,935      13,479      41.53%
+  Seasonal naive      2026-05  3rd countries           outbound    32,347    43,380      11,033      34.11%
+  Seasonal naive      2026-05  Schengen/EL/EMP/CH      inbound     43,294    38,595       4,699     -10.85%
+  Seasonal naive      2026-05  Schengen/EL/EMP/CH      outbound    41,069    36,427       4,642     -11.30%
+  Seasonal naive      2026-06  3rd countries           inbound     37,349    49,503      12,154      32.54%
+  Seasonal naive      2026-06  3rd countries           outbound    37,793    49,175      11,382      30.12%
+  Seasonal naive      2026-06  Schengen/EL/EMP/CH      inbound     43,834    39,197       4,637     -10.58%
+  Seasonal naive      2026-06  Schengen/EL/EMP/CH      outbound    45,190    40,720       4,470      -9.89%
+  Seasonal naive      2026-07  3rd countries           inbound     41,299    58,860      17,561      42.52%
+  Seasonal naive      2026-07  3rd countries           outbound    38,529    56,540      18,011      46.75%
+  Seasonal naive      2026-07  Schengen/EL/EMP/CH      inbound     50,289    46,173       4,116      -8.18%
+  Seasonal naive      2026-07  Schengen/EL/EMP/CH      outbound    47,046    44,144       2,902      -6.17%
+  Seasonal naive      2026-08  3rd countries           inbound     45,710    62,728      17,018      37.23%
+  Seasonal naive      2026-08  3rd countries           outbound    37,362    56,531      19,169      51.31%
+  Seasonal naive      2026-08  Schengen/EL/EMP/CH      inbound     50,617    47,722       2,895      -5.72%
+  Seasonal naive      2026-08  Schengen/EL/EMP/CH      outbound    43,296    43,665         369       0.85%
+  Seasonal naive      2026-09  3rd countries           inbound     40,424    52,684      12,260      30.33%
+  Seasonal naive      2026-09  3rd countries           outbound    34,765    47,234      12,469      35.87%
+  Seasonal naive      2026-09  Schengen/EL/EMP/CH      inbound     41,552    39,762       1,790      -4.31%
+  Seasonal naive      2026-09  Schengen/EL/EMP/CH      outbound    42,811    40,376       2,435      -5.69%
+
+
+VALIDATION METRICS (improved pipeline only)
+------------------------------------------------------------------------------------------
+  model               group_class             direction       RMSE        MAE       MAPE(%)   n_obs  folds
+  ----------------------------------------------------------------------------------------
+  Holt-Winters        3rd countries           inbound      10135.86    8392.85      18.26     36      6
+  Holt-Winters        3rd countries           outbound     12400.20   10296.61      22.70     36      6
+  Holt-Winters        ALL                     ALL           9623.27    7571.23      16.88    144      6
+  Holt-Winters        Schengen/EL/EMP/CH      inbound       8311.22    6510.27      15.16     36      6
+  Holt-Winters        Schengen/EL/EMP/CH      outbound      6697.21    5085.20      11.41     36      6
+  Linear regression   3rd countries           inbound      31374.53   28885.73      62.86     36      6
+  Linear regression   3rd countries           outbound     27555.44   26355.73      62.86     36      6
+  Linear regression   ALL                     ALL          22993.01   19929.06      45.86    144      6
+  Linear regression   Schengen/EL/EMP/CH      inbound      13598.82   12376.00      28.87     36      6
+  Linear regression   Schengen/EL/EMP/CH      outbound     13642.69   12098.78      28.82     36      6
+  Seasonal naive      3rd countries           inbound      13492.93   11587.15      27.00     36      6
+  Seasonal naive      3rd countries           outbound     15860.79   14822.42      34.57     36      6
+  Seasonal naive      ALL                     ALL          14775.66   12914.87      29.38    144      6
+  Seasonal naive      Schengen/EL/EMP/CH      inbound      14804.28   12736.64      27.96     36      6
+  Seasonal naive      Schengen/EL/EMP/CH      outbound     14848.91   12513.28      27.97     36      6
+
+
+PLAIN-LANGUAGE SUMMARY
+------------------------------------------------------------------------------------------
+Best model by validation is Holt-Winters (overall MAPE=16.88%, MAE=7571.23, RMSE=9623.27).
+Across 72 rows, the average absolute change is 4266.08 persons and average absolute percent change is 10.39%. Largest row change is 19,169 persons for Seasonal naive / 3rd countries / outbound / 2026-08.

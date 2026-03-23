@@ -1,0 +1,20 @@
+Walk-forward validation metrics (6-month horizon, 6-month step)
+==============================================================================
+
+Columns: model, group_class, direction, RMSE, MAE, MAPE(%), n_obs, n_folds
+
+Holt-Winters        3rd countries           inbound   RMSE=  10135.86  MAE=   8392.85  MAPE=   18.26  n= 36  folds= 6
+Holt-Winters        3rd countries           outbound  RMSE=  12400.20  MAE=  10296.61  MAPE=   22.70  n= 36  folds= 6
+Holt-Winters        ALL                     ALL       RMSE=   9623.27  MAE=   7571.23  MAPE=   16.88  n=144  folds= 6
+Holt-Winters        Schengen/EL/EMP/CH      inbound   RMSE=   8311.22  MAE=   6510.27  MAPE=   15.16  n= 36  folds= 6
+Holt-Winters        Schengen/EL/EMP/CH      outbound  RMSE=   6697.21  MAE=   5085.20  MAPE=   11.41  n= 36  folds= 6
+Linear regression   3rd countries           inbound   RMSE=  31374.53  MAE=  28885.73  MAPE=   62.86  n= 36  folds= 6
+Linear regression   3rd countries           outbound  RMSE=  27555.44  MAE=  26355.73  MAPE=   62.86  n= 36  folds= 6
+Linear regression   ALL                     ALL       RMSE=  22993.01  MAE=  19929.06  MAPE=   45.86  n=144  folds= 6
+Linear regression   Schengen/EL/EMP/CH      inbound   RMSE=  13598.82  MAE=  12376.00  MAPE=   28.87  n= 36  folds= 6
+Linear regression   Schengen/EL/EMP/CH      outbound  RMSE=  13642.69  MAE=  12098.78  MAPE=   28.82  n= 36  folds= 6
+Seasonal naive      3rd countries           inbound   RMSE=  13492.93  MAE=  11587.15  MAPE=   27.00  n= 36  folds= 6
+Seasonal naive      3rd countries           outbound  RMSE=  15860.79  MAE=  14822.42  MAPE=   34.57  n= 36  folds= 6
+Seasonal naive      ALL                     ALL       RMSE=  14775.66  MAE=  12914.87  MAPE=   29.38  n=144  folds= 6
+Seasonal naive      Schengen/EL/EMP/CH      inbound   RMSE=  14804.28  MAE=  12736.64  MAPE=   27.96  n= 36  folds= 6
+Seasonal naive      Schengen/EL/EMP/CH      outbound  RMSE=  14848.91  MAE=  12513.28  MAPE=   27.97  n= 36  folds= 6
